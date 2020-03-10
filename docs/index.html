@@ -1,22 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack</title>
-<link href="main.c9be7f6706a28700d217.css" rel="stylesheet"></head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>App Tareas</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+	<link href="main.f9130a7f4e7ec5efe334.css" rel="stylesheet"></head>
+	<body>
+		<section class="todoapp">
+			<header class="header">
+				<h1>Tareas</h1>
+				<input class="new-todo" placeholder="¿Qué necesita ser hecho?" autofocus>
+			</header>
+			<!-- This section should be hidden by default and shown when there are todos -->
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list">
+				
+				</ul>
+			</section>
+			<!-- This footer should hidden by default and shown when there are todos -->
+			<footer class="footer">
+				<!-- This should be `0 items left` by default -->
+				<span class="todo-count"><strong>0</strong> pendiente(s)</span>
+				<!-- Remove this if you don't implement routing -->
+				<ul class="filters">
+					<li>
+						<a class="selected filtro" class="selected" href="#/">Todos</a>
+					</li>
+					<li>
+						<a class="filtro" href="#/active">Pendientes</a>
+					</li>
+					<li>
+						<a class="filtro" href="#/completed">Completados</a>
+					</li>
+				</ul>
+				<!-- Hidden if no completed items are left ↓ -->
+				<button class="clear-completed">Borrar completados</button>
+			</footer>
+		</section>
+		<footer class="info">
+			
+			<p>Creado por <a href="https://github.com/fromasgard">
+				<i class="fab fa-github"></i> Abraham Roman</a></p>
 
-    <img src="assets/webpack-sprite.png" alt="Webpack logo" width="250px">
-
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    
-<script type="text/javascript" src="main.0d7cfbbe34c458d9ccea.js"></script></body>
+		</footer>
+        
+        
+	<script type="text/javascript" src="main.6f6e83b43aa41761dfe8.js"></script></body>
 </html>
